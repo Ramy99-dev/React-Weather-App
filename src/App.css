@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+.home{
+  background-image: url("https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2020-06/ASpot_Weather.jpg?h=d1cb525d&itok=lvYWh_W8");
+  height: 100vh;
+  width: 100vw;
+  background-size:cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap:5px;
+  
+
+}
+.form{
+  height:3vh;
+  display: flex;
+}
+input{
+  opacity: 0.7;
+}
+input , button{
+  height:100%;
+
+}
+button{
+  height: 3.8vh;
+}
+.weather-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size:cover;
+  
+}
+.temp{
+  font-size: 7em;;
+}
+.Templocation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+  margin:0px;
+  font-size: 2em;
+}
+.condition{
+  display: flex;
+  flex-direction: column;
+}
+.condition>img{
+  width:80%;
+}
+.snow{
+  background-image: url("https://eskipaper.com/images/snow-1.jpg");
+  
+}
+.rain{
+  background-image: url("https://wallpaper.dog/large/428328.jpg");
+  color:white;
+}
+.clear{
+  background-image: url("https://wallpapercave.com/wp/wp5544455.jpg");
+}
+.cloud{
+  background-image: url("https://images3.alphacoders.com/102/thumb-1920-1022105.jpg");
+}
+.overcast{
+  background-image: url("https://images.wallpaperscraft.com/image/single/clouds_cloudy_horizon_123783_1920x1080.jpg");
+}
+.sunny{
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/High-sky-wallpapers-hd-pictures.jpg");
+}
+.fog{
+  background-image: url("https://media.baamboozle.com/uploads/images/8365/1601579673_40715");
+}
+.notFound,.loading{
+  background: rgb(105, 136, 171);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.description{
+  font-family: 'Roboto Mono', monospace;
+}
+.title{
+  font-family: 'Anton', sans-serif;
+  font-size: 100px;
+  opacity: 0.7;
+  margin: 0;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .temp, p{
+    font-size: 2em;
+  }
+  .condition>img{
+    width:50%;
+  }
+  .title{
+    font-size: 5em;
+  }
+}
