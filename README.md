@@ -1,28 +1,20 @@
 # Weather App
-
-
----
-
-### Table of Contents
-
-
-- [Description](#description)
-- [Demo](#demo)
----
-
 ## Description
-My First React Application : Weather app 
+React Application that consume Weather Rest API using axios and display the data 
+
+
 
 #### Technologies
-- Front End : 
-
- <img align="left" alt="React" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" />
+<img  alt="React" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" />
 
 
-</br>
+Try it : https://lnkd.in/g3RsHRW7
+<h5> Or </h5>
+
+Run it locally 
+- Prerequisite :  NodeJS installed
 
 #### Demo 
-https://lnkd.in/g3RsHRW7
 ![](https://github.com/Ramy99-dev/React-Weather-App/blob/main/20211118_221654%20(2).gif)
 
 
