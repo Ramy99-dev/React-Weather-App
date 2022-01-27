@@ -13,6 +13,7 @@ Try it : https://lnkd.in/g3RsHRW7
 
 Run it locally 
 - Prerequisite :  NodeJS installed
+-  to start React app run  ```npm start``` 
 
 #### Demo 
 ![](https://github.com/Ramy99-dev/React-Weather-App/blob/main/20211118_221654%20(2).gif)
